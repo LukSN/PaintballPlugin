@@ -1,0 +1,17 @@
+name: Paintball
+authors:
+  - Mateo
+  - Meillon
+version: 1.0
+main: de.matev3.paintball.main.Main
+
+
+commands:
+  setspawn:
+    description: Setze den Spawn.
+  setprot:
+    description: Setze Protlol.
+  addspawn:
+    description: Adde loc.
+  event:
+    description: Event lol!
