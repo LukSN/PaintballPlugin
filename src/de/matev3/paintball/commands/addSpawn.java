@@ -17,7 +17,7 @@ public class addSpawn implements CommandExecutor {
         if (commandSender instanceof Player) {
             Player player = (Player) commandSender;
             if (player.hasPermission("matev3.addloc")) {
-                Main.locs.add(player.getLocation());
+                
             } else {
                 player.sendMessage("Knecht");
             }
